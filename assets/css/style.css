@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: #f5f5dc;
     text-align: center;
 }
 
@@ -14,6 +14,7 @@ h2 {
 h3, 
 p,
 li {
+    
     color: green;
 }
 
@@ -30,15 +31,19 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
     list-style-type: none;
     text-align: center;
 }
-
+li {
+    list-style-type: none;
+}
 nav li {
     display: inline;
+
 }
 
 nav a {
@@ -83,4 +88,30 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+.active-page {
+    color: #650115;
+    font-weight: bold;
+    font-size: 2em;
+}
+#header {
+    background-color: #c9e89a;
+    height: 30px;
+    width: 100%;
+}
+#header h3 {
+    color: #650115;
+    padding-top: 3px;
+}
+#footer {
+    margin-top: 10px;
+    background-color: #650115;
+    width: 100%;
+    height: 150px;
+    
+}
+#footer p {
+    color: #f5f5dc;
+    font-size: 2em;
+
 }
